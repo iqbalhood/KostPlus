@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/img_kost"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placehold" />
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="bottom"
+        android:background="@drawable/drawer_top_gradient"
+        android:maxLines="2"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/img_kost">
+
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:padding="10dp"
+            android:text="Nama"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="18sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:padding="10dp"
+            android:text="Harga"
+            android:textColor="#fff"
+            android:textSize="16sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:padding="10dp"
+            android:text="Alamat"
+            android:textColor="#fff"
+            android:textSize="16sp"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
