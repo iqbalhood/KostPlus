@@ -5,5 +5,5 @@ KostPlus is a mobile Android application sample for Indonesian Student Apartemen
 ## Full showcase of application
 <hr />
 
-[User profile](Screenshot_1514006502.png)
+![Logo](Screenshot_1514006502.png)
 
