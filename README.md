@@ -16,6 +16,11 @@ KostPlus is a mobile Android application sample for Indonesian Student Apartemen
 <li>Basic PHP Knowledge</li>
 <li>Basic Java Knowledge</li>
 
+## Add GoogleMap API for your android project 
+for the map feature you must add google map to android project
+you can learn from this youtube link : 
+https://www.youtube.com/watch?v=qIRLBbiqtcM
+
 
 #### Made with &#9829;
 Follow me on instagram :)
